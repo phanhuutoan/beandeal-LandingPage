@@ -1,0 +1,10 @@
+@mixin textNeon {
+    color: #fff;
+    text-shadow: 0 0 5px white, 0 0 12px white, 0 0 8px $yellow500;
+}
+
+@mixin responsive($width) {
+    @media only screen and (max-width: $width) {
+        @content;
+    }
+}

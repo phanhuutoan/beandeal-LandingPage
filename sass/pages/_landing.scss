@@ -1,0 +1,85 @@
+@import "../layouts/explore";
+@import "../layouts/about";
+@import "../layouts/market";
+
+body {
+    min-height: 100vh;
+    position: relative;
+    z-index: 0;
+    overflow-x: hidden;
+    background: linear-gradient(
+        180deg,
+        rgba(39, 18, 51, 1) 0%,
+        rgba(45, 21, 57, 1) 6.42%,
+        rgba(62, 28, 72, 1) 15.03%,
+        rgba(90, 39, 98, 1) 24.85%,
+        rgba(101, 44, 108, 1) 28.14%,
+        rgba(114, 52, 114, 1) 33.29%,
+        rgba(149, 75, 129, 1) 42.88%,
+        rgba(201, 107, 152, 1) 54.72%,
+        rgba(214, 124, 154, 1) 62.11%,
+        rgba(233, 149, 157, 1) 75.33%,
+        rgba(240, 158, 158, 1) 83.36%,
+        rgba(251, 194, 162, 1) 94.95%,
+        rgba(251, 194, 162, 1) 100%
+    );
+
+    &::after {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: linear-gradient(
+            180deg,
+            rgba(49, 22, 43, 1) 0%,
+            rgba(54, 26, 49, 1) 9.18%,
+            rgba(70, 38, 65, 1) 21.19%,
+            rgba(82, 47, 78, 1) 28.14%,
+            rgba(67, 33, 51, 1) 41.71%,
+            rgba(55, 21, 30, 1) 54.72%,
+            rgba(73, 25, 44, 1) 68.12%,
+            rgba(82, 27, 50, 1) 78.52%,
+            rgba(72, 27, 44, 1) 98.07%,
+            rgba(72, 27, 44, 1) 100%
+        );
+    }
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+.scrollbar {
+    position: fixed;
+    top: 0;
+    right: 2px;
+    width: 4px;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.05);
+
+    .progressBar {
+        width: 100%;
+        background-color: white;
+        box-shadow: 0 0 4px white, 0 0 6px $yellow500;
+        border-radius: 4px;
+        opacity: 0.9;
+    }
+}
+
+// #rock-lg-0,
+// #rock-lg-1 {
+//     width: 100%;
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     z-index: 0;
+// }
+
+// #rock-lg-1 {
+//     g {
+//         animation-delay: -20s;
+//     }
+// }

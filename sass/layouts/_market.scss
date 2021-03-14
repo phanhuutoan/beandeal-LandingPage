@@ -1,0 +1,19 @@
+#market-svg {
+    width: 100%;
+    position: relative;
+    z-index: 100;
+}
+
+#hub-title,
+#btn-sign-up {
+    transition: all 0.4s;
+    @include textNeon;
+
+    &:hover {
+        text-shadow: 0 0 5px white, 0 0 12px white, 0 0 16px $yellow500;
+    }
+}
+
+#btn-sign-up {
+    cursor: pointer;
+}

@@ -1,17 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BeanDeal</title>
-  <link rel="stylesheet" href="./sass/main.css">
-</head>
-
-<body>
-
-  <script src="index.js"></script>
-</body>
-
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>BeanDeal</title>
+        <link rel="stylesheet" href="./sass/main.css" />
+        <link
+            href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <div class="scrollbar"><div class="progressBar"></div></div>
+        <!-- <object
+            id="rock-lg-0"
+            data="./assets/images/background/rock-lg.svg"
+            type="image/svg+xml"
+        >
+            <img src="./assets/images/background/rock-lg.svg" alt="debris" />
+        </object>
+        <object
+            id="rock-lg-1"
+            data="./assets/images/background/rock-lg.svg"
+            type="image/svg+xml"
+        >
+            <img src="./assets/images/background/rock-lg.svg" alt="debris" />
+        </object> -->
+        <main
+            class="relative p-5 sm:px-0 sm:py-16 mx-auto overflow-x-hidden sm:overflow-x-visible sm:max-w-lg md:max-w-screen-sm lg:max-w-screen-md xl:max-w-screen-lg"
+        >
+            <!-- explore section -->
+            <section id="explore" class="mb-16 sm:mb-28 md:mb-36">
+                <div class="relative text-center">
+                    <object
+                        id="explore-svg"
+                        type="image/svg+xml"
+                        data="./assets/images/traffic_light/traffic_light.svg"
+                    >
+                        <img
+                            src="./assets/images/traffic_light/traffic_light.svg"
+                            alt="explore"
+                        />
+                    </object>
+                    <button id="aboutBtn" class="about-btn" type="button">
+                        OUR STORY
+                    </button>
+                </div>
+            </section>
+            <!-- about section -->
+            <section id="about" class="relative mb-16 sm:mb-28 md:mb-36">
+                <div class="box">
+                    <object
+                        id="about-svg"
+                        type="image/svg+xml"
+                        data="./assets/images/about_us/about_us.svg"
+                    >
+                        <img
+                            src="./assets/images/about_us/about_us.svg"
+                            alt="about us"
+                        />
+                    </object>
+                </div>
+                <p class="about__text xl:text-lg md:text-md">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Malesuada fames ac turpis egestas maecenas pharetra
+                    convallis posuere morbi. Ornare suspendisse sed nisi lacus.
+                    Iaculis nunc sed augue lacus viverra. Consectetur libero id
+                    faucibus nisl tincidunt eget nullam. Tortor aliquam nulla
+                    facilisi cras fermentum odio eu. Enim nunc faucibus a
+                    pellentesque sit amet porttitor eget. Dapibus ultrices in
+                    iaculis nunc sed augue. Consequat mauris nunc congue nisi
+                    vitae suscipit tellus mauris. Adipiscing elit pellentesque
+                    habitant morbi tristique senectus. Leo urna molestie at
+                    elementum eu facilisis sed. Enim nec dui nunc mattis enim ut
+                    tellus. Fermentum iaculis eu non diam phasellus vestibulum
+                    lorem sed. Nibh nisl condimentum id venenatis. Quam
+                    vulputate dignissim suspendisse in est ante. Eget arcu
+                    dictum varius duis at. Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Malesuada fames
+                    ac turpis egestas maecenas pharetra convallis posuere morbi.
+                    Ornare suspendisse sed nisi lacus. Iaculis nunc sed augue
+                    lacus viverra. Consectetur libero id faucibus nisl tincidunt
+                    eget nullam. Tortor aliquam nulla facilisi cras fermentum
+                    odio eu.
+                </p>
+            </section>
+            <!-- market section -->
+            <section id="market" class="market">
+                <div class="market__container">
+                    <object
+                        id="market-svg"
+                        type="image/svg+xml"
+                        data="./assets/images/market_hub/market_hub.svg"
+                    >
+                        <img
+                            src="./assets/images/market_hub/market_hub.svg"
+                            alt="market hub"
+                        />
+                    </object>
+                </div>
+            </section>
+        </main>
+        <script src="anime.min.js"></script>
+        <script src="index.js"></script>
+    </body>
 </html>

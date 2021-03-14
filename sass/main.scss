@@ -1,3 +1,7 @@
 @import "./common/font";
 @import "./variables/color";
+@import "./variables/breakpoint";
 @import "./common/reset";
+@import "./mixins/mixin";
+
+@import "./pages/landing";

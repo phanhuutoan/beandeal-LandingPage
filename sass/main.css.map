@@ -5,7 +5,8 @@
         "main.scss",
         "common/_font.scss",
         "variables/_color.scss",
-        "common/_reset.scss"
+        "common/_reset.scss",
+        "pages/_landing.scss"
     ],
     "names": [],
     "file": "main.css"
