@@ -239,84 +239,98 @@
                     transform="translate(-334.89 -29.98)"
                     fill="#abdaca"
                 />
-                <circle
-                    cx="1647.19"
-                    cy="275.23"
-                    r="18.67"
-                    transform="translate(864.83 1854.21) rotate(-83.94)"
-                    fill="#fff"
-                    opacity="0.22"
-                />
-                <circle cx="1312.3" cy="245.25" r="6.95" fill="#f9ae80" />
-                <circle cx="1312.3" cy="245.25" r="3.62" fill="#f16322" />
-                <circle
-                    cx="1587.92"
-                    cy="201.15"
-                    r="18.67"
-                    transform="translate(885.48 1729) rotate(-83.94)"
-                    fill="#fff"
-                    opacity="0.22"
-                />
-                <circle cx="1253.03" cy="171.17" r="6.95" fill="#f9ae80" />
-                <circle cx="1253.03" cy="171.17" r="3.62" fill="#f16322" />
-                <circle
-                    cx="1519.86"
-                    cy="116.07"
-                    r="18.67"
-                    transform="translate(-229.73 653.58) rotate(-26.22)"
-                    fill="#fff"
-                    opacity="0.22"
-                />
-                <path
-                    d="M1515.52,110.65a6.95,6.95,0,1,1-1.09,9.77A7,7,0,0,1,1515.52,110.65Z"
-                    transform="translate(-334.89 -29.98)"
-                    fill="#f9ae80"
-                />
-                <path
-                    d="M1517.6,113.25a3.62,3.62,0,1,1-.57,5.09A3.61,3.61,0,0,1,1517.6,113.25Z"
-                    transform="translate(-334.89 -29.98)"
-                    fill="#f16322"
-                />
-                <circle
-                    cx="1467.38"
-                    cy="50.48"
-                    r="18.67"
-                    transform="translate(-226.31 576.74) rotate(-24.23)"
-                    fill="#fff"
-                    opacity="0.22"
-                />
-                <circle cx="1132.5" cy="20.49" r="6.95" fill="#f9ae80" />
-                <circle cx="1132.5" cy="20.49" r="3.62" fill="#f16322" />
-                <circle
-                    cx="1706.45"
-                    cy="349.32"
-                    r="18.67"
-                    transform="translate(-319.52 736.74) rotate(-25.43)"
-                    fill="#fff"
-                    opacity="0.22"
-                />
-                <circle cx="1371.57" cy="319.33" r="6.95" fill="#f9ae80" />
-                <circle cx="1371.57" cy="319.33" r="3.62" fill="#f16322" />
-                <circle
-                    cx="1774.51"
-                    cy="434.39"
-                    r="18.67"
-                    transform="translate(-349.46 774.22) rotate(-25.43)"
-                    fill="#fff"
-                    opacity="0.22"
-                />
-                <circle cx="1439.63" cy="404.41" r="6.95" fill="#f9ae80" />
-                <circle cx="1439.63" cy="404.41" r="3.62" fill="#f16322" />
-                <circle
-                    cx="1832.39"
-                    cy="506.74"
-                    r="18.67"
-                    transform="translate(800.28 2245.46) rotate(-83.94)"
-                    fill="#fff"
-                    opacity="0.22"
-                />
-                <circle cx="1497.51" cy="476.75" r="6.95" fill="#f9ae80" />
-                <circle cx="1497.51" cy="476.75" r="3.62" fill="#f16322" />
+                <g id="ufo-led">
+                    <circle
+                        cx="1647.19"
+                        cy="275.23"
+                        r="18.67"
+                        transform="translate(864.83 1854.21) rotate(-83.94)"
+                        fill="#fff"
+                        opacity="0.22"
+                    />
+                    <circle cx="1312.3" cy="245.25" r="6.95" fill="#f9ae80" />
+                    <circle cx="1312.3" cy="245.25" r="3.62" fill="#f16322" />
+                </g>
+                <g id="ufo-led">
+                    <circle
+                        cx="1587.92"
+                        cy="201.15"
+                        r="18.67"
+                        transform="translate(885.48 1729) rotate(-83.94)"
+                        fill="#fff"
+                        opacity="0.22"
+                    />
+                    <circle cx="1253.03" cy="171.17" r="6.95" fill="#f9ae80" />
+                    <circle cx="1253.03" cy="171.17" r="3.62" fill="#f16322" />
+                </g>
+                <g id="ufo-led">
+                    <circle
+                        cx="1519.86"
+                        cy="116.07"
+                        r="18.67"
+                        transform="translate(-229.73 653.58) rotate(-26.22)"
+                        fill="#fff"
+                        opacity="0.22"
+                    />
+                    <path
+                        d="M1515.52,110.65a6.95,6.95,0,1,1-1.09,9.77A7,7,0,0,1,1515.52,110.65Z"
+                        transform="translate(-334.89 -29.98)"
+                        fill="#f9ae80"
+                    />
+                    <path
+                        d="M1517.6,113.25a3.62,3.62,0,1,1-.57,5.09A3.61,3.61,0,0,1,1517.6,113.25Z"
+                        transform="translate(-334.89 -29.98)"
+                        fill="#f16322"
+                    />
+                </g>
+                <g id="ufo-led">
+                    <circle
+                        cx="1467.38"
+                        cy="50.48"
+                        r="18.67"
+                        transform="translate(-226.31 576.74) rotate(-24.23)"
+                        fill="#fff"
+                        opacity="0.22"
+                    />
+                    <circle cx="1132.5" cy="20.49" r="6.95" fill="#f9ae80" />
+                    <circle cx="1132.5" cy="20.49" r="3.62" fill="#f16322" />
+                </g>
+                <g id="ufo-led">
+                    <circle
+                        cx="1706.45"
+                        cy="349.32"
+                        r="18.67"
+                        transform="translate(-319.52 736.74) rotate(-25.43)"
+                        fill="#fff"
+                        opacity="0.22"
+                    />
+                    <circle cx="1371.57" cy="319.33" r="6.95" fill="#f9ae80" />
+                    <circle cx="1371.57" cy="319.33" r="3.62" fill="#f16322" />
+                </g>
+                <g id="ufo-led">
+                    <circle
+                        cx="1774.51"
+                        cy="434.39"
+                        r="18.67"
+                        transform="translate(-349.46 774.22) rotate(-25.43)"
+                        fill="#fff"
+                        opacity="0.22"
+                    />
+                    <circle cx="1439.63" cy="404.41" r="6.95" fill="#f9ae80" />
+                    <circle cx="1439.63" cy="404.41" r="3.62" fill="#f16322" />
+                </g>
+                <g id="ufo-led">
+                    <circle
+                        cx="1832.39"
+                        cy="506.74"
+                        r="18.67"
+                        transform="translate(800.28 2245.46) rotate(-83.94)"
+                        fill="#fff"
+                        opacity="0.22"
+                    />
+                    <circle cx="1497.51" cy="476.75" r="6.95" fill="#f9ae80" />
+                    <circle cx="1497.51" cy="476.75" r="3.62" fill="#f16322" />
+                </g>
                 <polygon
                     id="poly-light"
                     points="1042.72 845.74 668.14 377.51 1210.2 220.7 1314.7 351.32 1042.72 845.74"

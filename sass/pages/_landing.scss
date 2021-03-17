@@ -1,3 +1,4 @@
+@import "../layouts/bgAnimation";
 @import "../layouts/explore";
 @import "../layouts/about";
 @import "../layouts/market";
@@ -68,18 +69,3 @@ body {
         opacity: 0.9;
     }
 }
-
-// #rock-lg-0,
-// #rock-lg-1 {
-//     width: 100%;
-//     position: absolute;
-//     top: 0;
-//     left: 0;
-//     z-index: 0;
-// }
-
-// #rock-lg-1 {
-//     g {
-//         animation-delay: -20s;
-//     }
-// }
