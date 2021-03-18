@@ -47,12 +47,43 @@ $big-stars:multiple-start(100);
     }
 }
 
+@media (max-width: 900px){
+    .roadmap{
+        div.wrapper{
+            flex-direction: column;
+            img{
+                max-width: 35%;
+                margin-bottom: 1.5rem;
+            }
+            span{                
+                color: #fff;
+                margin: 0;
+                padding: 0 1rem;
+                text-align: center;
+            }
+            &:nth-child(even){
+                flex-direction: column;
+                span{
+                    margin: 0;
+                    padding: 0 1rem;
+                    text-align: center;
+                }
+            }
+        }
+    }    
+}
+
 .roadmap{    
     overflow: visible;
+    margin-bottom: 0;
+    padding: 10px;
     .wrapper{
         display: flex;
         align-items: center;
         margin-bottom: 5rem;
+        // img{
+        //     max-width: 15vw;
+        // }
         &.rotate img{
             animation: planet_rotate 50s linear infinite;
         }
@@ -60,7 +91,7 @@ $big-stars:multiple-start(100);
             animation: planet_shake 10s linear infinite;
         }
         span{
-            font-size: 1.4rem;
+            font-size: 1.2rem;
             color: #fff;
             margin-left: 2rem;
         }
