@@ -69,3 +69,95 @@ body {
         opacity: 0.9;
     }
 }
+
+.members {
+    justify-content: space-between;
+    img {
+        width: 20%;
+    }
+}
+
+@media (max-width: 900px) {
+    .roadmap {
+        div.wrapper {
+            flex-direction: column;
+            img {
+                max-width: 35%;
+                margin-bottom: 1.5rem;
+            }
+            span {
+                color: #fff;
+                margin: 0;
+                padding: 0 1rem;
+                text-align: center;
+            }
+            &:nth-child(even) {
+                flex-direction: column;
+                span {
+                    margin: 0;
+                    padding: 0 1rem;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+.roadmap {
+    overflow: visible;
+    margin-bottom: 0;
+    padding: 10px;
+    .wrapper {
+        display: flex;
+        align-items: center;
+        margin-bottom: 5rem;
+        // img{
+        //     max-width: 15vw;
+        // }
+        &.rotate img {
+            animation: planet_rotate 50s linear infinite;
+        }
+        &.shake img {
+            animation: planet_shake 10s linear infinite;
+        }
+        span {
+            font-size: 1.2rem;
+            color: #fff;
+            margin-left: 2rem;
+        }
+        &:nth-child(even) {
+            flex-direction: row-reverse;
+            span {
+                margin-right: 2rem;
+                margin-left: 0;
+                text-align: right;
+            }
+        }
+    }
+}
+
+.idea {
+    margin-top: 4rem;
+    animation: swinging 15s linear infinite;
+    #idea {
+        max-width: 65vw;
+    }
+}
+
+.seek {
+    height: 50vw;
+
+    #seek_left {
+        width: 75%;
+        bottom: 70px;
+        transform-origin: left bottom;
+        animation: seek_left_move 10s linear infinite;
+    }
+    #seek_right {
+        width: 40%;
+        right: -8%;
+        top: 70px;
+        transform-origin: right top;
+        animation: seek_left_move 10s linear infinite;
+    }
+}

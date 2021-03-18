@@ -13,28 +13,14 @@
 }
 
 #ufo-svg {
-    animation: swinging 1s linear infinite;
-
-    @keyframes swinging {
-        0% {
-            transform: translate(4px, 4px);
-        }
-        50% {
-            transform: translate(0, 0);
-        }
-        100% {
-            transform: translate(4px, 4px);
-        }
-    }
+    animation: swinging-ufo 2s linear infinite;
 }
-
-
 
 #ufo-led {
     animation: glitter 1s ease infinite;
     transform-box: fill-box;
     transform-origin: center;
-    
+
     @keyframes glitter {
         0% {
             opacity: 0.8;
@@ -51,10 +37,9 @@
     }
 }
 
-
 #poly-light {
     animation: flicker 5s cubic-bezier(1, 0, 0, 1) 1s infinite;
-    
+
     @keyframes flicker {
         0%,
         19.999%,
@@ -76,7 +61,6 @@
         }
     }
 }
-
 
 .about__text {
     height: 50%;

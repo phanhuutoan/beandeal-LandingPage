@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="208.4693" height="165.5769" viewBox="0 0 208.4693 165.5769">
+  <defs>
+    <clipPath id="clip-path" transform="translate(10.5 0)">
+      <circle cx="82.7885" cy="82.7885" r="82.7885" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_3" data-name="Layer 3">
+      <g>
+        <circle cx="93.2885" cy="82.7885" r="82.7885" fill="#f7b889"/>
+        <g clip-path="url(#clip-path)">
+          <line x1="79.7001" y1="37.518" x2="197.9693" y2="37.518" fill="none" stroke="#e28b50" stroke-linecap="round" stroke-miterlimit="10" stroke-width="21"/>
+          <line x1="121.2621" y1="19.4002" x2="176.0769" y2="19.4002" fill="none" stroke="#e28b50" stroke-linecap="round" stroke-miterlimit="10" stroke-width="21"/>
+          <line x1="10.5" y1="62.6817" x2="106.9188" y2="62.6817" fill="none" stroke="#e28b50" stroke-linecap="round" stroke-miterlimit="10" stroke-width="21"/>
+          <line x1="10.5" y1="90.865" x2="74.6674" y2="90.865" fill="none" stroke="#e28b50" stroke-linecap="round" stroke-miterlimit="10" stroke-width="21"/>
+          <line x1="34.1538" y1="153.2709" x2="152.4231" y2="153.2709" fill="none" stroke="#e28b50" stroke-linecap="round" stroke-miterlimit="10" stroke-width="21"/>
+          <line x1="58.3949" y1="110.4927" x2="121.2621" y2="110.4927" fill="none" stroke="#e28b50" stroke-linecap="round" stroke-miterlimit="10" stroke-width="21"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

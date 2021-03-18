@@ -8,3 +8,12 @@
         @content;
     }
 }
+
+@function generate-start($n, $w, $h) {
+    // $n is number of start
+    $value: "#{random($w)}vw #{random($h)}vh #fff";
+    @for $i from 2 through $n {
+        $value: "#{$value} , #{random($w)}vw #{random($h)}vh #fff";
+    }
+    @return unquote($value);
+}
