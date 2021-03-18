@@ -1,7 +1,8 @@
 body{
     background-image: url('../assets/images/bg.svg');  
     background-size: cover;    
-    font-family: aAtmospheric;  
+    font-family: aAtmospheric; 
+    overflow-x: hidden; 
 }
 
 // Stars
