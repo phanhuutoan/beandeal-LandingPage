@@ -1,0 +1,29 @@
+@keyframes star_move{
+    0% { transform: translateX(0);}
+    100% { transform: translateX(-100vw); }
+}
+
+@keyframes idea_move{
+    0%, 100%{ transform: translate(0, 0);}
+    25%{ transform: translate(20px, 30px);}
+    50%{ transform: translate(-30px, -40px);}
+    75%{ transform: translate(-20px, 40px);}
+}
+
+@keyframes seek_left_move{
+    0%, 100% {transform: rotate(0);}
+    25% { transform: rotate(2deg);} 
+    75% { transform: rotate(-2deg);} 
+}
+
+@keyframes planet_shake{
+    0%, 100%{transform: rotate(0);}
+    25% { transform: rotate(10deg);} 
+    75% { transform: rotate(-10deg);} 
+}
+
+@keyframes planet_rotate{
+    0%, 100%{transform: rotate(0);}    
+    50% { transform: rotate(180deg);} 
+}
+

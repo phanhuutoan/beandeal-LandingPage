@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1919.999" height="9998.0723" viewBox="0 0 1919.999 9998.0723">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="1919.999" height="9998.072" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" y1="10000" x2="1" y2="10000" gradientTransform="matrix(0, 9946.5781, 9946.5781, 0, -99464821.25, 24.9287)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#271233"/>
+      <stop offset="0.0642" stop-color="#2d1539"/>
+      <stop offset="0.1503" stop-color="#3e1c48"/>
+      <stop offset="0.2485" stop-color="#5a2762"/>
+      <stop offset="0.2814" stop-color="#652c6c"/>
+      <stop offset="0.3329" stop-color="#723472"/>
+      <stop offset="0.4288" stop-color="#954b81"/>
+      <stop offset="0.5472" stop-color="#c96b98"/>
+      <stop offset="0.6211" stop-color="#d67c9a"/>
+      <stop offset="0.7533" stop-color="#e9959d"/>
+      <stop offset="0.8336" stop-color="#f09e9e"/>
+      <stop offset="0.9495" stop-color="#fbc2a2"/>
+      <stop offset="1" stop-color="#fbc2a2"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" y1="10000" x2="1" y2="10000" gradientTransform="matrix(0, 9946.5781, 9946.5781, 0, -99464821.25, 24.9287)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#31162b"/>
+      <stop offset="0.0918" stop-color="#361a31"/>
+      <stop offset="0.2119" stop-color="#462641"/>
+      <stop offset="0.2814" stop-color="#522f4e"/>
+      <stop offset="0.4171" stop-color="#432133"/>
+      <stop offset="0.5472" stop-color="#37151e"/>
+      <stop offset="0.6812" stop-color="#49192c"/>
+      <stop offset="0.7852" stop-color="#521b32"/>
+      <stop offset="0.9807" stop-color="#481b2c"/>
+      <stop offset="1" stop-color="#481b2c"/>
+    </linearGradient>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g>
+        <g clip-path="url(#clip-path)">
+          <rect width="1919.999" height="9998.0723" fill="url(#linear-gradient)"/>
+        </g>
+        <g clip-path="url(#clip-path)">
+          <rect width="1919.999" height="9998.0723" fill="url(#linear-gradient-2)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

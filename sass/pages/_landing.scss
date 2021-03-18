@@ -1,0 +1,107 @@
+body{
+    background-image: url('../assets/images/bg.svg');  
+    background-size: cover;    
+    font-family: aAtmospheric;  
+}
+
+// Stars
+$small-stars: multiple-start(700);
+$medium-stars: multiple-start(200);
+$big-stars:multiple-start(100);
+
+.stars{
+    & > div{
+        z-index: -1;
+        position: fixed;
+        left: 10px;
+        top: 10px;
+    }
+    #stars1{
+        width: 1px;
+        height: 1px;
+        background-color: #fff;
+        box-shadow: $small-stars;
+        animation: star_move 100s linear infinite;
+    }
+    #stars2{
+        width: 2px;
+        height: 2px;
+        background-color: #fff;
+        box-shadow: $medium-stars;
+        animation: star_move 50s linear infinite;
+    }
+    #stars3{
+        width: 3px;
+        height: 3px;
+        background-color: #fff;
+        box-shadow: $big-stars;
+        animation: star_move 35s linear infinite;
+    }
+}
+
+.members{
+    justify-content: space-between;
+    img{
+        width: 20%;
+    }
+}
+
+.roadmap{    
+    overflow: visible;
+    .wrapper{
+        display: flex;
+        align-items: center;
+        margin-bottom: 5rem;
+        &.rotate img{
+            animation: planet_rotate 50s linear infinite;
+        }
+        &.shake img{
+            animation: planet_shake 10s linear infinite;
+        }
+        span{
+            font-size: 1.4rem;
+            color: #fff;
+            margin-left: 2rem;
+        }
+        &:nth-child(even){
+            flex-direction: row-reverse;
+            span{
+                margin-right: 2rem;
+                margin-left: 0;
+                text-align: right;
+            }
+        }
+    }
+}
+
+.idea{
+    margin-top: 4rem;
+    animation: idea_move 30s linear infinite;
+    #idea{
+        max-width: 65vw;
+    }
+}
+
+
+.seek{
+    height: 50vw;
+    
+    #seek_left{                
+        width: 75%;
+        bottom: 70px;
+        transform-origin: left bottom;
+        animation: seek_left_move 10s linear infinite;
+    }
+    #seek_right{
+        width: 40%;
+        right: -8%;
+        top: 70px;        
+        transform-origin: right top;
+        animation: seek_left_move 10s linear infinite;
+    }
+}
+
+section{
+    overflow-x: hidden;
+    margin-bottom: 70px;
+}

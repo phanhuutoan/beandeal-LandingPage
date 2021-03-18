@@ -1,0 +1,7 @@
+@function multiple-start($n){ // $n is number of start
+    $value: '#{random(200)}vw #{random(100)}vh #fff';
+    @for $i from 2 through $n{
+        $value: '#{$value} , #{random(200)}vw #{random(100)}vh #fff'
+    }
+    @return unquote($value);
+}
